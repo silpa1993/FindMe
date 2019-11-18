@@ -5,7 +5,7 @@ public class Chance {
 
 			public static void main(String[] args) {
 				// TODO Auto-generated method stub
-				System.setProperty("webdriver.chrome.driver", "C://Users/mssil/OneDrive/Documents/silpa/chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "C:/Users/mssil/eclipse-workspace/Final/lib/chromedriver.exe");
 				WebDriver driver=new ChromeDriver();
 				driver.get("http://qatechhub.com");
 				System.out.println("Hi");
